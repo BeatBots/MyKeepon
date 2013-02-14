@@ -1,0 +1,9 @@
+.DS_Store
+*~
+.*~
+*/bin/*
+!*/bin/data
+
+*/*.xcodeproj/project.xcworkspace/xcuserdata
+*/*.xcodeproj/xcuserdata
+max/MyKeepon.app
