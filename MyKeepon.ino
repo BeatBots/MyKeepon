@@ -35,10 +35,10 @@ void setup()
 void bootup()
 {
   Serial.print("Waiting for My Keepon... ");
-  pinMode(A4, OUTPUT); // Data wire on My Keepon
-  pinMode(A5, OUTPUT); // Clock wire on My Keepon
-  digitalWrite(A4, LOW);
-  digitalWrite(A5, LOW);
+  pinMode(SDA, OUTPUT); // Data wire on My Keepon
+  pinMode(SCL, OUTPUT); // Clock wire on My Keepon
+  digitalWrite(SDA, LOW);
+  digitalWrite(SCL, LOW);
   while (analogRead(0) < 512); // Wait until we see voltage on A0 pin
   Serial.println("My Keepon detected.");
   delay(1000);
