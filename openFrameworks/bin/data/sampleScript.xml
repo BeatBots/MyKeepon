@@ -1,0 +1,5 @@
+<cmd time="0">MOVE PAN 100;</cmd>
+<cmd time="500">MOVE TILT 100;</cmd>
+<cmd time="500">MOVE TILT -100;</cmd>
+<cmd time="500">MOVE TILT 0;</cmd>
+<cmd time="500">MOVE PAN 0;</cmd>
